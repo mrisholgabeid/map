@@ -11,26 +11,26 @@ form {
 }
 
 .name {
-	flex: 1;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
 
 .names {
-	width: 46%;
+	width: 49.4%;
 }
 
 .form-items {
-	padding: 10px 15px;
 	outline: none;
 	font-size: 14px;
 	line-height: 30px;
 	margin: 0 0 15px 0;
 	border-radius: 3px;
-	font-family: 'Open Sans', sans-serif;
-	color: rgba(0, 0, 0, .7);
+	padding: 10px 15px;
+	box-sizing: border-box;
+	color: rgba(0, 0, 0, .4);
 	border: 1px solid rgba(0, 0, 0, .1);
+	font-family: 'Open Sans', sans-serif;
 }
 
 input[type="submit"] {
@@ -41,3 +41,33 @@ input[type="submit"] {
 	color: rgba(255, 255, 255, 1);
 	background-color: rgba(66,165,245 ,1);
 }
+
+
+/* ------------ MEDIA QUERIES ------------ */
+
+@media screen and (max-width: 1000px) {
+	.name {
+		flex-direction: column;
+	}
+
+	.names {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
