@@ -1,0 +1,71 @@
+#banner {
+	height: 100vh;
+	background: linear-gradient(135deg, rgba(0, 0, 0, .7) 50%, rgba(0, 0, 0, .7) 50%), url('../../img/background.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.banner-content ul li {
+	display: inline-block;
+	margin: 0 25px 0 0;
+}
+
+.banner-content ul li:last-child {
+	margin-right: 20px;
+}
+
+ul li a.banner-link {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+p#main-logo {
+	font-size: 23px;
+	font-weight: bolder;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: line-through;
+	border-radius: 50%;
+	line-height: 30px;
+	padding: 25px 5px;
+	width: 70px;
+	margin: 0 auto;
+	border: 3px solid rgba(255, 255, 255, 1);
+}
+
+/* ----------------------- HASHTAG STYLE BEGIN HERE ---------------------- */
+
+.hashtag {
+	bottom: 50px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.tag {
+	font-size: 12px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+}
+
+
+
+@media screen and (min-width: 1299px) {
+	#banner {
+		background-position: center center;
+	}
+}
+
+
+
+
+
+
+
+
+
+

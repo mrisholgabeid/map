@@ -1,0 +1,35 @@
+footer {
+	width: 100%;
+	height: auto;
+	padding: 25px 0;
+	text-align: center;
+	background-color: rgba(245,245,245 ,1);
+}
+
+footer p {
+	margin: 0px;
+	font-size: 10px;
+}
+
+footer p a {
+	color: rgba(76,175,80 ,1);
+}
+
+footer .fa {
+	margin: 0 10px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, .5);
+	transition: color 350ms ease-in-out;
+}
+
+footer .fa-instagram:hover {
+	color: rgba(228,64,95 ,1);
+}
+
+footer .fa-facebook:hover {
+	color: rgba(59,89,153 ,1);
+}
+
+footer .fa-instagram:hover {
+	color: rgba(228,64,95 ,1);
+}

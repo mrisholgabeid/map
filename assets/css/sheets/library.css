@@ -1,0 +1,164 @@
+/* ---------------- PORTRAITS PHOTOGRAPHY ---------------- */
+.portrait {
+	height: 250px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 7px;
+	margin: 0 0 20px 0;
+	transition: box-shadow 250ms ease-in-out;
+	box-shadow: 7px 7px 23px rgba(0, 0, 0, .3);
+	-o-transition: box-shadow 250ms ease-in-out;
+	-ms-transition: box-shadow 250ms ease-in-out;
+	-moz-transition: box-shadow 250ms ease-in-out;
+	-webkit-transition: box-shadow 250ms ease-in-out;
+	background: linear-gradient(0deg, rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, .4) 50%), url('https://unsplash.it/500/500?image=1027') no-repeat;
+}
+
+.portrait:hover {
+	box-shadow: 2px 2px 23px rgba(0, 0, 0, .15);	
+}
+
+/* ---------------- LANDSCAPE PHOTOGRAPHY ---------------- */
+
+.landscape {
+	height: 250px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 7px;
+	margin: 0 0 20px 0;
+	transition: box-shadow 250ms ease-in-out;
+	box-shadow: 7px 7px 23px rgba(0, 0, 0, .3);
+	-o-transition: box-shadow 250ms ease-in-out;
+	-ms-transition: box-shadow 250ms ease-in-out;
+	-moz-transition: box-shadow 250ms ease-in-out;
+	-webkit-transition: box-shadow 250ms ease-in-out;
+	background: linear-gradient(0deg, rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, .4) 50%), url('https://unsplash.it/500/500?image=1031') no-repeat;
+}
+
+.landscape:hover {
+	box-shadow: 2px 2px 23px rgba(0, 0, 0, .15);	
+}
+
+/* ---------------- CARS PHOTOGRAPHY ---------------- */
+
+.cars {
+	height: 250px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 7px;
+	margin: 0 0 20px 0;
+	transition: box-shadow 250ms ease-in-out;
+	box-shadow: 7px 7px 23px rgba(0, 0, 0, .3);
+	-o-transition: box-shadow 250ms ease-in-out;
+	-ms-transition: box-shadow 250ms ease-in-out;
+	-moz-transition: box-shadow 250ms ease-in-out;
+	-webkit-transition: box-shadow 250ms ease-in-out;
+	background: linear-gradient(0deg, rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, .4) 50%), url('https://unsplash.it/500/500?image=1067') no-repeat;
+}
+
+.cars:hover {
+	box-shadow: 2px 2px 23px rgba(0, 0, 0, .15);	
+}
+
+/* ---------------- BUILDINGS PHOTOGRAPHY ---------------- */
+
+.buildings {
+	height: 250px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 7px;
+	margin: 0 0 20px 0;
+	transition: box-shadow 250ms ease-in-out;
+	box-shadow: 7px 7px 23px rgba(0, 0, 0, .3);
+	-o-transition: box-shadow 250ms ease-in-out;
+	-ms-transition: box-shadow 250ms ease-in-out;
+	-moz-transition: box-shadow 250ms ease-in-out;
+	-webkit-transition: box-shadow 250ms ease-in-out;
+	background: linear-gradient(0deg, rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, .4) 50%), url('https://unsplash.it/500/500?image=1081') no-repeat;
+}
+
+.buildings:hover {
+	box-shadow: 2px 2px 23px rgba(0, 0, 0, .15);	
+}
+
+/* ---------------- ANIMALS PHOTOGRAPHY ---------------- */
+
+.animals {
+	height: 250px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 7px;
+	margin: 0 0 20px 0;
+	transition: box-shadow 250ms ease-in-out;
+	box-shadow: 7px 7px 23px rgba(0, 0, 0, .3);
+	-o-transition: box-shadow 250ms ease-in-out;
+	-ms-transition: box-shadow 250ms ease-in-out;
+	-moz-transition: box-shadow 250ms ease-in-out;
+	-webkit-transition: box-shadow 250ms ease-in-out;
+	background: linear-gradient(0deg, rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, .4) 50%), url('https://unsplash.it/500/500?image=1036') no-repeat;
+}
+
+.animals:hover {
+	box-shadow: 2px 2px 23px rgba(0, 0, 0, .15);	
+}
+
+/* ---------------- WEDDINGS PHOTOGRAPHY ---------------- */
+
+.weddings {
+	height: 250px;
+	display: flex;
+	border-radius: 7px;
+	align-items: center;
+	margin: 0 0 20px 0;
+	justify-content: space-around;
+	transition: box-shadow 250ms ease-in-out;
+	box-shadow: 7px 7px 23px rgba(0, 0, 0, .3);
+	-o-transition: box-shadow 250ms ease-in-out;
+	-ms-transition: box-shadow 250ms ease-in-out;
+	-moz-transition: box-shadow 250ms ease-in-out;
+	-webkit-transition: box-shadow 250ms ease-in-out;
+	background: linear-gradient(0deg, rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, .4) 50%), url('https://unsplash.it/500/500?image=543') no-repeat;
+}
+
+.weddings:hover {
+	box-shadow: 2px 2px 23px rgba(0, 0, 0, .15);	
+}
+
+/* ---------------- SUNSET PHOTOGRAPHY ---------------- */
+
+.sunset {
+	height: 250px;
+	display: flex;
+	border-radius: 7px;
+	align-items: center;
+	margin: 0 0 20px 0;
+	justify-content: space-around;
+	transition: box-shadow 250ms ease-in-out;
+	box-shadow: 7px 7px 23px rgba(0, 0, 0, .3);
+	-o-transition: box-shadow 250ms ease-in-out;
+	-ms-transition: box-shadow 250ms ease-in-out;
+	-moz-transition: box-shadow 250ms ease-in-out;
+	-webkit-transition: box-shadow 250ms ease-in-out;
+	background: linear-gradient(0deg, rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, .4) 50%), url('https://unsplash.it/500/500?image=185') no-repeat;
+}
+
+.sunset:hover {
+	box-shadow: 2px 2px 23px rgba(0, 0, 0, .15);	
+}
+
+/* ---------------------- UNIVERSAL TEXT STYLES ---------------------- */
+
+.category {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 1);
+}
+
+a p.category {
+	font-weight: lighter;
+} 
